@@ -1,0 +1,389 @@
+<!-- home page file -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/school-solid.svg">
+    <title>Edgeater High School</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/media-query.css">
+</head>
+<body>
+
+
+    <!-- header -->
+
+    <section>
+        <div class="head">
+            <div class="container">
+                <div class="head-inside">
+                    <ul>
+                        <li>                           
+                            <a href="tel:917838635669">
+                                <img src="/assets/phone-solid.svg" alt="phone" width="15px">
+                                 +91 33 22551171
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:kingafnan2498@gmail.com">
+                                <img src="/assets/envelope-solid.svg" alt="mail" width="15px">
+                                 principal@sxcs.edu.in
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- navbar -->
+
+    <section>
+        <div class="background">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="/index.html">
+                            <img src="/assets/school-white.svg" alt="school logo" width="50px">
+                            <h4>EDGEWATER HIGH SCHOOL</h4>
+                        </a>
+                    </div>
+                    <div class="menu">
+                        <div class="toggle">
+                            <button class="toggle-button" onclick="togglenavbar();">
+                                <img src="/assets/bars-solid.svg" width="25" alt="toggle button">
+                            </button>
+                        </div>
+                        <ul id="menus">
+                            <li>
+                                <a href="/notice-board.html">NOTICE BOARD</a>
+                            </li>
+                            <li>
+                                <a href="/admission.html">ADMISSION</a>
+                            </li>
+                            <li>
+                                <a href="/academics.html">ACADEMICS</a>
+                            </li>
+                            <li>
+                                <a href="/contact-us.html">CONTACT US</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="school-name">
+                    <h1>WELCOME TO</h1>
+                    <h1>Edgewater High School</h1>
+                    <br>
+                    <p>We are best in education</p>
+                    <p>For the great glory of success</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- main -->
+
+      <section>
+        <div class="container">
+
+
+            <!-- announcement section -->
+
+            <div class="heading">
+                <h1 class="h1">ANNOUNCEMENT</h1>
+            </div>
+            <div class="announcement">
+                <div class="announcement-child">
+                    <h1>NOTICE TO ALL PARENTS_12.02.2024</h1>
+                    <br>
+                    <P>FR. P. C. MATHEW, THE FORMER PRINCIPAL OF ST. XAVIER’S COLLEGE, KOLKATA PASSED AWAY YESTERDAY, 11.02.2024. AS A MARK OF RESPECT, THE SCHOOL REMAINS CLOSED TOMORROW, 13.02.2024. MAY THE DEPARTED SOUL REST IN PEACE..
+                        <br><br>• THE CHEMISTRY PRACTICAL FOR CLASS 11 WILL BE HELD ON 27.02.2024.
+                    </P>
+                </div>
+                <div class="announcement-child">
+                    <h1>SUMMER VACATION NOTICE FOR 2024-25</h1>
+                    <br>
+                    <p>The Summer vacation for the academic year 2024-2025 will be from 11th May 2024 (last working day is 10.05.2024).
+                        <br><br>• School will reopen on Monday, 10th June 2024, with DAY-1 routine.
+                    </p>
+                </div>
+            </div>
+            <div class="button">
+                    <button onclick="announcementbutton()">VIEW ALL</button>
+            </div>
+        </div>
+
+
+        <!-- admission section -->
+
+        <div class="container admission-section">
+            <div class="heading">
+                <h1 class="h1">ADMISSION</h1>
+            </div>
+            <div class="admission">
+                <ul>
+                    <li>
+                        <p>To avail of the online application form for admission to Class KG for the academic session 2025-26, beginning in April 2025, log on to our website: www.sxcsccu.edu.in</p>
+                    </li>
+                    <li>
+                        <p>The webpage linked to admission will be available from 5th August 2024 to 5th September, 2024 (both days are inclusive).</p>
+                    </li>
+                    <li>
+                        <p>There will be no manual distribution of forms for admission to Class KG</p>
+                    </li>
+                    <li>
+                        <p>The cost of an online application form is Rs. 500/-. The payment may be either through a credit card/debit card or through net banking options given on the payment gateway (Bill Desk). Service charges as per Bill Desk/RBI are extra to be paid by the applicant. The cost of the application form, once paid, is non-refundable.</p>
+                    </li>
+                    <li>
+                        <p>Candidate's age requirement for admission: candidates should have been born on or between 1 January 2020 and 31 December 2020.</p>
+                    </li>
+                    <li>
+                        <p>The online system will accept only one application form per candidate.</p>
+                    </li>
+                    <li>
+                        <p>The candidates must bring a copy of your admission form and the payment slip at the time of form verification.</p>
+                    </li>
+                    <li>
+                        <p>The date and time of the verification session will be displayed on the school website later.</p>
+                    </li>
+                </ul>
+                <p class="p">if you want to know about admission please click on button below</p>
+            </div>
+            <div class="button">
+            <button onclick="admissionbutton()">READ MORE</button>
+            </div>
+        </div>
+
+
+        <!-- event section  -->
+
+        <h1 class="h1">SCHOOL EVENTS</h1>
+        <div class="main-image">
+            <h3>NO UPCOMING EVENTS</h3>
+        </div>
+        <div class="event-images">
+            <img src="/assets/image2.jpg" alt="event image">
+            <img src="/assets/image3.jpg" alt="event image">
+        </div>
+        <div class="button">
+            <button onclick="eventbutton()">VIEW ALL</button>
+        </div>
+
+
+        <!-- school info  -->
+
+        <div class="school-info-section">
+            <div class="container">
+               <ul>
+                <li>
+                    <img src="/assets/chalkboard-user-solid.svg" alt="teacher" width="150px">
+                    <br><br>
+                    <h1>112</h1>
+                    <p>certified teachers</p>
+                </li>
+                <li>
+                    <img src="/assets/users-solid.svg" alt="teacher" width="150px">
+                    <br><br>
+                    <h1>282673</h1>
+                    <p>students enrolled</p>
+                </li>
+                <li>
+                    <img src="/assets/building-columns-solid.svg" alt="teacher" width="150px">
+                    <br><br>
+                    <h1>599666</h1>
+                    <p>passing to universities</p>
+                </li>
+                <li>
+                    <img src="/assets/user-group-solid.svg" alt="teacher" width="150px">
+                    <br><br>
+                    <h1>1200</h1>
+                    <p>satisfied parents</p>
+                </li>
+               </ul>
+            </div>
+        </div>
+
+
+        <!-- event archive -->
+
+        <div class="container event-archive">
+            <h1 class="h1">EVENTS (ARCHIVE)</h1>
+            <div class="event">
+                <div class="event-child">
+                    <h1>Seminar on Consumer Affairs</h1>
+                    <br>
+                    <p>The Economics students of Classes 11 and 9 had the privilege of attending an hour long, informative and entertaining seminar organised by the Consumer Affairs Department, Government of West Bengal, on 4th of February 2016.We were made aware of Consumer Rights and their protection. The students of St. Xavier's Collegiate School whole-heartedly thank the Assistant Directors of the Consumer Affairs Department for taking time out of their busy schedule and addressing them.</p>
+                </div>
+                <div class="event-child">
+                    <h1>Third Student Exchange</h1>
+                    <br>
+                    <p>St. Xavier's Collegiate School, Kolkata for the third time carried forth this banner of peace and friendship across to Kunming, China in the form of the 3rd Student Exchange Programme, which lasted for ten days.Enthusiasm is the invisible source of energy that our students find so attractive and enthralling. We light the match and they will carry the torch. This Student Exchange Programme between Shida Fuzhong High School, Kunming, China and St. Xavier's Collegiate School.</p>
+                </div>
+                <div class="event-child">
+                    <h1>Rangotsav</h1>
+                    <br>
+                    <p>St. Xavier's Collegiate School in association with TTIS presented Rangotsav '14 - The festival of colours. 'Rangotsav', an interschool Hindi Cultural Fest for classes 11 and 12 was conducted in our national language - 'Hindi'. In Sanmarg, Chapte Chapte and Young Metro, this fest was highly appreciated. Rangotsav is all about promoting our national language. The fest was well organized and the participants had an awesome time. It was also a platform for the reunion of Hindi teachers.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- student action group -->
+
+         <div class="student-action-group-section">
+            <h1 class="h1">STUDENT ACTION GROUP</h1>
+            <div class="container">
+                <div class="action-group">
+                    <div class="action-group-child">
+                        <img src="/assets/School-icon.png" alt="action group logo">
+                        <p> 
+                            <b>School Assemblies</b>
+                            <br>
+                            are a part of our daily curriculum. We have our Assemblies on Day 1 and Day 4. Each Assembly is scheduled for 8 to 10 minutes. We started our Theme oriented Assemblies, based on different levels or groups, from the 21st of June 2011. These Assemblies have not only brought out a lot of talent but also helped the students gain a great deal of self-confidence.
+                        </p>
+                    </div>
+                    <div class="action-group-child">
+                        <img src="/assets/Scouts-icon.png" alt="action group logo">
+                        <p>
+                            <b>St. Xavier's Collegiate School (Loyola Scout Group)</b>
+                            <br>
+                            is open to boys of all classes. The Group consists of a Cub Pack and Scout Troop registered with The Bharat Scouts and Guides. After a long gap the SXCS Scout Troop has been re-started with the blessing of the Headmaster and Prefects of the school. The cubs - Ishan Dutta, Sarbajit Choudhuri and Trijeet Gomes represented our fledgling SXCS Cub Pack.
+                        </p>
+                    </div>
+                    <div class="action-group-child">
+                        <img src="/assets/nature-club.png" alt="action group logo">
+                        <p>
+                            <b>The Nature Club</b>
+                            <br>
+                            of St. Xavier's Collegiate School has always been committed to sensitizing its students on issues relating to environmental degradation.Thus it encourages its members to be pro-active towards sustainable development in their given milieuh.The Nature Club of St. Xavier's Collegiate School embodies passion for and devotion to Mother Nature and Her creations.
+                        </p>
+                    </div>
+                    <div class="action-group-child">
+                        <img src="/assets/Social-icon.png" alt="action group logo">
+                        <p>
+                            <b>Being a part of the Social Service Club</b>
+                            <br>
+                            has made me feel what 'community service' truly means. As a junior I always wanted to go to all classes and announce the week's Social Service collection and encourage my fellow students to donate generously. At St. Xavier's, Social Service is taken very seriously. We have a committee of 15 boys from classes 7 to 12.
+                        </p>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+
+         <!-- admisitration section -->
+
+          <div class="container administration-section">
+            <div class="heading">
+                <h1 class="h1">ADMINISTRATOR</h1>
+            </div>
+            <div class="administration">
+                <div>
+                    <img src="/assets/Fr-Jeyaraj-Veluswamy.jpg" alt="pricipal image">
+                    <br><br>
+                    <b>Principle</b>
+                    <p>Fr. Jeyaraj Veluswamy, SJ</p>
+                </div>
+                <div>
+                    <img src="/assets/Br-Chintamoni-Das.jpg" alt="vice principal image">
+                    <br><br>
+                    <b>Vice Principle</b>
+                    <p>Br. Chintamoni Das, S.J.</p>
+                </div>
+                <div>
+                    <img src="/assets/Fr-Peter.jpg" alt="campas administrator image">
+                    <br><br>
+                    <b>Campus Administrator</b>
+                    <p>Fr. Peter Arcokiam, SJ </p>
+                </div>
+                <div>
+                    <img src="/assets/Fr-Narendra-Singh.jpg" alt="chaplain of the school image">
+                    <br><br>
+                    <b>Chaplain of the School</b>
+                    <p>Fr. Narendra Singh, SJ</p>
+                </div>
+            </div>
+          </div>
+      </section>
+
+
+      <!-- footer  -->
+
+       <section>
+        <div class="footer-section">
+            <div class="container">
+                <div class="footer">
+                    <div class="footer-child">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7369.613222463287!2d88.356172!3d22.548916!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02771aad282713%3A0x62c7778aead16f97!2sSt.%20Xavier&#39;s%20College%20(Autonomous)%20-%20Kolkata!5e0!3m2!1sen!2sus!4v1726400924416!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="footer-child">
+                        <div class="footer-sub-child">
+                            <h3>Primary Section</h3>
+                            <br>
+                            <p>12A Wood Street,</p>
+                            <p>Kolkata - 700 016</p>
+                            <p>Ph: +91 33 22906951</p>
+                            <span>E-mail:<a href="mailto:kingafnan2498@gmail.com"> principal@sxcs.edu.in</a></span>
+                        </div>
+                        <div class="footer-sub-child">
+                            <h3>Secondary Section</h3>
+                            <br>
+                            <p>30 Mother Teresa Sarani,</p>
+                            <p>Kolkata - 700 016</p>
+                            <p>Ph: +91 33 22906951</p>
+                            <div class="button">
+                                <button onclick="contactusbutton()">GET IN TOUCH</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- sub footer -->
+
+         <div class="sub-footer">
+            <div class="container">
+                <div class="sub-footer-content">
+                    <p>Designed by <span>MOHD AFNAN ANSARI</span>.</p>
+                    <div class="sub-footer-logo">
+                        <a href="https://www.instagram.com/https.affx?igsh=MWc3ajRkMTI0eHFtaQ==">
+                            <img src="/assets/instagram-brands-solid.svg" alt="instagram logo" width="25px">
+                        </a>
+                        <a href="https://www.linkedin.com/in/afnan-ansari07/">
+                            <img src="/assets/linkedin-brands-solid.svg" alt="linkedin logo" width="25px">
+                        </a>
+                    </div>
+                </div>
+                <div class="scroll-to-top">
+                    <button onclick="scrolltop()">
+                        <img src="/assets/arrow-left-solid.svg" width="10" alt="arrow">
+                    </button>
+                </div>
+            </div>
+         </div>
+       </section>
+
+    <script src="/script.js"></script>
+
+    <script>
+        window.embeddedChatbotConfig = {
+        chatbotId: "DIHso1hsW7tkHjD_8kOOa",
+        domain: "www.chatbase.co"
+        }
+    </script>
+
+    <script
+        src="https://www.chatbase.co/embed.min.js"
+        chatbotId="DIHso1hsW7tkHjD_8kOOa"
+        domain="www.chatbase.co"
+        defer>
+    </script>
+    
+</body>
+</html>
