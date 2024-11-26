@@ -87,7 +87,7 @@
 /* navbar */
 
 .background {
-    background: url('/assets/main-banner.jpg');
+    background: url('./assets/main-banner.jpg');
     height: 900px;
     width: 100%;
     background-size: cover;
@@ -261,7 +261,7 @@
 /* event section  */
 
 .main-image {
-    background: url('/assets/image1.jpg');
+    background: url('./assets/image1.jpg');
     max-width: 600px;
     height: 263px;
     padding-top: 20px;
@@ -293,7 +293,7 @@
 .school-info-section {
     margin-block: 100px;
     position: relative;
-    background: url('/assets/background.jpg');
+    background: url('./assets/background.jpg');
     width: 100%;
     background-size: cover;
     color: var(--secondary-color);
@@ -347,7 +347,7 @@
 /* student action group */
 
 .student-action-group-section{
-    background: url('/assets/background.jpg');
+    background: url('./assets/background.jpg');
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
